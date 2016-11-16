@@ -1,0 +1,42 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --exec babel-node",
+    "tunnel": "lt --port 8080 --subdomain subdomain",
+    "start": "./node_modules/.bin/babel-node index.js",
+    "deploy": "git push heroku master",
+    "setup": "./node_modules/.bin/babel-node ./app/setup/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Valora/Chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Valora/Chatbot/issues"
+  },
+  "homepage": "https://gitlab.com/Valora/Chatbot#README",
+  "dependencies": {
+    "apiai": "^2.0.7",
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "body-parser": "^1.15.2",
+    "botkit": "^0.4.0",
+    "dashbot": "^0.7.4",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1",
+    "node-schedule": "^1.1.1",
+    "nodemailer": "^2.6.4",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pokemon": "^1.0.1"
+  },
+  "devDependencies": {
+    "localtunnel": "^1.8.1",
+    "nodemon": "^1.10.2"
+  }
+}

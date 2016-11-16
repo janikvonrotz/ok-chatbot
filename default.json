@@ -1,0 +1,24 @@
+{
+  "PORT": 8080,
+  "DEBUG": true,
+  "MONGODB": {
+    "URL": "id.mlab.com:53166/database",
+    "USER": "username:password"
+  },
+  "TUNNEL": {
+    "SUBDOMAIN": "subdomain"
+  },
+  "MAIL": {
+    "TO": "receiver@example.com",
+    "FROM": "sender@example.com",
+    "USER": "username",
+    "PASSWORD": "password"
+  },
+  "DASHBOT_API_KEY": "9a7da7sda9sd7a8ds9a7d9a8d7a9s8d7",
+  "API_AI_TOKEN": "9a7da7sda9sd7a8ds9a7d9a8d7a9s8d7",
+  "FACEBOOK": {
+      "ACCESS_TOKEN": "9a7da7sda9sd7a8ds9a7d9a8d7a9s8d7",
+      "VERIFY_TOKEN": "9a7da7sda9sd7a8ds9a7d9a8d7a9s8d7",
+      "URL": "https://graph.facebook.com/v2.6/"
+  }
+}

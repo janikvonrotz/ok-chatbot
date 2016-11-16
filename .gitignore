@@ -1,0 +1,5 @@
+.jshintrc
+node_modules
+.DS_Store
+development.json
+production.json
