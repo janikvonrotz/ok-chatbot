@@ -1,7 +1,7 @@
 # ok Chatbot
 
 Chatbot for a swiss retailer that delivers deals to customer.  
-Backend service for this bot: https://github.com/janikvonrotz/apometact
+Backend service for this chatbot: https://github.com/janikvonrotz/apometact
 
 ![](/readme/screenshot.png)
 
