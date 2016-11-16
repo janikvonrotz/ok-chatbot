@@ -17,6 +17,7 @@ Backend service for this bot: https://github.com/janikvonrotz/apometact
 ## Installation development
 
 * Copy `default.json` to `development.json`.
+* Run `npm install` in your cli.
 * Setup required services
   * mLab database
   * Facebook app
@@ -35,6 +36,7 @@ Backend service for this bot: https://github.com/janikvonrotz/apometact
 ## Installation production
 
 * Copy `default.json` to `production.json`.
+* Run `npm install` in your cli.
 * Setup required services
   * Heroku
   * Facebook App
