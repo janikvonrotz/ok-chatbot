@@ -1,7 +1,9 @@
 # ok Chatbot
 
 Chatbot for a swiss retailer that delivers deals to customer.  
-Backend service for this chatbot: https://github.com/janikvonrotz/apometact
+Backend service for this chatbot: [Apometact](https://github.com/janikvonrotz/apometact)  
+Introduction blog post: [Introducing the first retail chatbot in Switzerland](https://medium.com/valora-lab/introducing-the-ok-chatbot-fb728ce3168c)  
+Lessons learned blog post: [Nine key learnings after building the first Swiss retail chatbot](https://medium.com/valora-lab/nine-key-learnings-after-building-the-first-swiss-retail-chatbot-56a4cfd2291)  
 
 ![](/readme/screenshot.png)
 
