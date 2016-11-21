@@ -13,7 +13,7 @@ export default (config) => {
 
     middleware.receive = function(bot, message, next) {
         if(message.text && message.mid !== undefined & message.quick_reply === undefined) {
-            let request = apiai.textRequest(message.text);
+            let request = apiai.textRequest(message.text, {sessionId: message.channel});
 
             request.on('response', function(response) {
                 if(response.result.actionIncomplete) {
